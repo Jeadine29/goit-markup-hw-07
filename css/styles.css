@@ -157,6 +157,9 @@ button {
 
 /* End of header List */
 
+
+
+
 /* Hover */
 .link:hover {
         color: var(--IRIS, #4D5AE5);
@@ -965,6 +968,70 @@ footer {
                 width: 428px;
         }
         
+        .mobile-menu {
+                /* display: flex; */
+                padding: 40px;
+                height: 796px;
+        }
+
+
+                .mobile-nav-link {
+                         display: flex;
+                         flex-direction: column;
+                         margin-top: 80px;
+                         gap: 40px;
+                 }
+                .mobile-link {
+                        color: var(--NAVY-BLUE, #2E2F42);
+                        font-family: Roboto;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 40px;
+                        letter-spacing: 0.72px;
+                        text-transform: capitalize;
+                }
+
+                .mobile-contacts-info {
+                       margin-top: 156px;
+                }
+
+                .mobile-nav-contacts {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 40px;
+
+                }
+        
+                .mobile-nav-number {
+                        color: var(--NAVY-BLUE, #2E2F42);
+                        font-family: Roboto;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 40px;
+                        letter-spacing: 0.72px;
+                        text-transform: capitalize;
+                }
+
+                .mobile-nav-email {
+                        color: var(--SLATE, #434455);
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: 0.4px;
+                }
+
+                .mobile-social-list {
+                        display: inline-flex;
+                        align-items: flex-start;
+                        gap: 56px;
+                        margin-top: 56px;
+                }
+                        
+        }
 
 
         .footer {
@@ -976,7 +1043,6 @@ footer {
                 flex-basis: calc(100% / 3 - 30px);
         } */
 
-}
 
 @media (min-width: 768px) {
         .container {
@@ -992,6 +1058,9 @@ footer {
                 height: 72px;
         }
         
+        
+
+
         .feature,
         .team-card {
                 flex-basis: calc(100% / 2 - 30px);
@@ -1092,7 +1161,21 @@ footer {
                 position: fixed;
                 background-color: var(--WHITE, white);
         }
-
+        
+                .mobile-menu {
+                        display: flex;
+                        padding: 40px;
+                        height: 796px;
+                }
+        
+                .mobile-nav-link {
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 80px;
+                        gap: 40px;
+                }
+        
+                
 
         .footer-inner {
                 align-items: center;

@@ -43,7 +43,7 @@
     <header class="mobile-nav">
         <div class="container mobile-container">
             <a class="header-logo" href="webstudio"><span class="logo">WEB</span><span class="studio-navy">STUDIO</span></a>
-            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <!-- <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu"> -->
                 <svg width="32" height="22" class="js-open-menu">
                      <use href="./images/icons.svg#hamburger"></use>
                 </svg>
@@ -51,27 +51,29 @@
         </div>
     </header>
 
-    <div class="js-menu-container mobile-menu"> 
+    <div class="js-menu-container mobile-menu" id="mobile-menu"> 
         <div class="mobile-menu-container">
-            <button type="button" class="js-close-menu" id="mobile-menu">
+            <button type="button" class="js-close-menu">
                 <svg class="x-button">
                     <use href="./images/icons.svg#close"></use>
                 </svg>
             </button>
-            <nav>
-                <ul>
-                    <li><a href="">Studio</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Contacts</a></li>
+            <nav class="mobile-nav-header">
+                <ul class="mobile-nav-link">
+                    <li class="mobile-link"><a href="">Studio</a></li>
+                    <li class="mobile-link"><a href="">Portfolio</a></li>
+                    <li class="mobile-link"><a href="">Contacts</a></li>
                 </ul>
             </nav>
-            <div>
-                <ul>
-                    <li><a href="">+11 (000) 111-11-11</a></li>
-                    <li><a href="">info@devstudio.com</a></li>
+            <div class="mobile-contacts-info">
+                <ul class="mobile-nav-contacts">
+                    <li><a class="mobile-nav-number" href="">+11 (000) 111-11-11</a></li>
+                    <li><a class="mobile-nav-email" href="">info@devstudio.com</a></li>
                 </ul>
-                <ul>
-                    <li>
+            </div>
+            <div>
+                <ul class="mobile-nav-socials">
+                    <li class="mobile-social-list">
                         <a class="socials">
                             <svg class="socials-icon">
                                 <use href="./images/icons.svg#instagram-2"></use>
