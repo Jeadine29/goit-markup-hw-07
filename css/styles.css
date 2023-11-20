@@ -973,7 +973,9 @@ footer {
                 padding: 40px;
                 height: 796px;
         }
-
+                 .mobile-nav {
+                         display: none;
+                 }
 
                 .mobile-nav-link {
                          display: flex;
@@ -981,6 +983,14 @@ footer {
                          margin-top: 80px;
                          gap: 40px;
                  }
+            
+
+
+.mobile-menu-container.active {
+    transform: translateX(0); /* Bring the side navigation bar on-screen when active */
+}
+
+
                 .mobile-link {
                         color: var(--NAVY-BLUE, #2E2F42);
                         font-family: Roboto;
