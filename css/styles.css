@@ -979,13 +979,22 @@ footer {
                 display: flex;
                 align-items: center;
                 height: 70px;
-                margin: 16px 16px;
+                margin-left: 40px;
         }
+
+        
+       .header-list {
+        display: none;
+       }
 
         .header-logo {
                 margin-right: 249px;
+                margin-left: 16px;
         }
        
+        .contact-info {
+                display: none;
+        }
         .main-hero,
         .hero-section  {
                 width: 428px;
@@ -1014,6 +1023,14 @@ footer {
                 margin-bottom: 72px;
         }
         
+        .works {
+                 display: none;
+        }
+        
+        .hero-icon {
+                display: none;
+        }
+
         .hero {
                font-size: 36px;
                letter-spacing: 0.72px;
@@ -1028,8 +1045,6 @@ footer {
         .modal {
                 width: 392px;
                 height: 584px;
-                /* padding: 0; */
-               /* margin: 96px 18px 116px; */
         }
 
 
@@ -1060,23 +1075,19 @@ footer {
         .teams {
                 width: 428px;
                 padding-left: 0px;
+                padding-right: 0px;
                 padding-top: 0px;
                 padding-bottom: 96px;
         }
 
-        .team {
-                margin: 0 auto;
-                padding: 96px 0px;
+        .team-list {
+                margin-left: 82px;
+                margin-right: 82px;
         }
 
         .customers {
                 width: 428px;
                 padding: 96px 0px;
-        }
-        
-        footer {
-                width: 428px;
-               padding: 96px 0px;
         }
       
         .logo-icons {
@@ -1092,18 +1103,6 @@ footer {
          margin-right: 15px;
         }
 
-
-
-
-
-
-
-
-        /* .desktop-nav {
-                display: flex;
-                text-align: center;
-        } */
-
         .mobile-menu.is-open {
                 transform: translateX(0);
         }
@@ -1115,21 +1114,111 @@ footer {
                 position: fixed;
                 background-color: var(--WHITE, white);
         }
-/* 
-        .mobile-menu {
-                display: flex;
-                padding: 40px;
-                height: 796px;
-        } */
+
+        .mobile-nav-header {
+                margin-left: 40px;
+        }
+
 
         .mobile-nav-link {
                 display: flex;
                 flex-direction: column;
-                margin-top: 80px;
                 gap: 40px;
         }
 
-     
+        .mobile-header-link {
+                color: var(--NAVY-BLUE, #2E2F42);
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 40px;
+                letter-spacing: 0.72px;
+                text-transform: capitalize;
+        }
+
+        .mobile-header-link
+
+        .mobile-contacts-info {
+                margin-top: 156px;
+        }
+        
+        .mobile-nav-contacts {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                margin-left: 40px;
+        }
+        
+        .mobile-nav-number {
+                color: var(--NAVY-BLUE, #2E2F42);
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 40px;
+                letter-spacing: 0.72px;
+                text-transform: capitalize;
+        }
+        
+        .mobile-nav-email {
+                color: var(--SLATE, #434455);
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.4px;
+        }
+        
+        .mobile-social-list {
+                display: inline-flex;
+                align-items: flex-start;
+                gap: 56px;
+                margin-top: 56px;
+                margin-left: 40px;
+        }
+
+        .mobile-header-link:hover,
+        .mobile-nav-number:hover,
+        .mobile-nav-email:hover {
+                color: var(--IRIS, #4D5AE5);
+                background-color: transparent;
+        }
+        
+        .mobile-header-link:active,
+        .mobile-nav-number:active,
+        .mobilenav-email:active {
+                color: var(--IRIS, #4D5AE5);
+                background-color: transparent;
+        }
+
+
+        .js-open-menu {
+                /* display: flex; */
+                margin-right: 16px;
+        }
+ 
+        .js-close-menu {
+                margin-left: 380px;
+                margin-right: 24px;
+                margin-top: 24px;
+                margin-bottom: 32px;
+        }
+
+        .buttons {
+                width: 2643px;
+                height: 96px;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+        }
+
+        footer {
+                width: 428px;
+                padding: 96px 0px;
+        }
 
         .footer-inner {
                 align-items: center;
@@ -1149,117 +1238,10 @@ footer {
                 text-align: left;
         }
 
-        /* .email-box {
-                width: 398px;
-                margin: 15px 15px;
-        } */
-
-        .works {
-                display: none;
-        }
-
-        .hero-icon {
-                display: none;
-        }
-
-        /* .feature p {
-                margin-top: 0;
-        } */
-/* 
-        .team,
-        .customer {
-                font-size: 36px;
-        } */
-
         .footer-social {
                 text-align: center;
         }
 }
-        
-        .mobile-menu {
-                /* display: flex; */
-                padding: 40px;
-                height: 796px;
-        }
-                 /* .mobile-nav {
-                         display: none;
-                 } */
-
-                .mobile-nav-link {
-                         display: flex;
-                         flex-direction: column;
-                         margin-top: 80px;
-                         gap: 40px;
-                 }
-            
-
-
-.mobile-menu-container.active {
-    transform: translateX(0); /* Bring the side navigation bar on-screen when active */
-}
-
-
-                .mobile-link {
-                        color: var(--NAVY-BLUE, #2E2F42);
-                        font-family: Roboto;
-                        font-size: 36px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: 40px;
-                        letter-spacing: 0.72px;
-                        text-transform: capitalize;
-                }
-
-                .mobile-contacts-info {
-                       margin-top: 156px;
-                }
-
-                .mobile-nav-contacts {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 40px;
-
-                }
-        
-                .mobile-nav-number {
-                        color: var(--NAVY-BLUE, #2E2F42);
-                        font-family: Roboto;
-                        font-size: 36px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: 40px;
-                        letter-spacing: 0.72px;
-                        text-transform: capitalize;
-                }
-
-                .mobile-nav-email {
-                        color: var(--SLATE, #434455);
-                        font-family: Roboto;
-                        font-size: 20px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: 24px;
-                        letter-spacing: 0.4px;
-                }
-
-                .mobile-social-list {
-                        display: inline-flex;
-                        align-items: flex-start;
-                        gap: 56px;
-                        margin-top: 56px;
-                }
-                        
-        
-
-
-        /* .footer {
-                width: 428px;
-                height: 664px;
-        } */
-
-       /* .logo-icons {
-                flex-basis: calc(100% / 3 - 30px);
-        } */
 
 
 @media (min-width: 768px) {
@@ -1351,13 +1333,22 @@ footer {
         .logo-icons {
                 flex-basis: calc(100% / 3 - 30px);
         }
-
+        
+        .buttons {
+                flex-basis: calc(100% / 3 - 30px);
+        }
         .feature p {
                 margin-top: 0;
         }
 
         .footer-social {
                 margin-left: 24px;
+        }
+}
+
+@media (max-width: 767) {
+        .mobile-container {
+                display: none;
         }
 }
 
