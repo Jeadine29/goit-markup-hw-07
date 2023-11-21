@@ -979,7 +979,7 @@ footer {
                 display: flex;
                 align-items: center;
                 height: 70px;
-                margin-left: 40px;
+                /* margin-left: 40px; */
         }
 
         
