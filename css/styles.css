@@ -743,6 +743,11 @@ p {
         cursor: pointer;
 }
 
+.button {
+        flex-wrap: wrap;
+}
+
+
 .btn:hover {
         border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -979,7 +984,10 @@ footer {
                 display: flex;
                 align-items: center;
                 height: 70px;
-                /* margin-left: 40px; */
+                margin: 0 auto;
+                border: 1px solid var(--CORNFLOWER, #E7E9FC);
+                background: var(--WHITE, #FFF);
+                box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
         }
 
         
@@ -1076,8 +1084,8 @@ footer {
                 width: 428px;
                 padding-left: 0px;
                 padding-right: 0px;
-                padding-top: 0px;
-                padding-bottom: 96px;
+                padding-top: 96px;
+                padding-bottom: 72px;
         }
 
         .team-list {
@@ -1205,15 +1213,48 @@ footer {
                 margin-top: 24px;
                 margin-bottom: 32px;
         }
+        
+        .main-buttons {
+                width: 428px;
+        }
 
         .buttons {
-                width: 2643px;
-                height: 96px;
                 margin: 0 auto;
-                display: flex;
+                margin-left: 16px;
+                margin-top: 48px;
+                align-items: flex-start;
                 flex-wrap: wrap;
-                gap: 15px;
+                gap: 24px;
         }
+
+        .project {
+                /* width: 396px; */
+                margin-left: 16px;
+                margin-right: 16px;
+                /* display: inline-flex;
+                flex-direction: column;
+                align-items: flex-start; */
+
+        } 
+/* 
+        .project-grid {
+                flex-direction: column;
+                display: flex;
+               
+        } */
+
+        .project-list {
+                /* display: flex; */
+                flex-wrap: wrap;
+                /* flex-direction: column; */
+                row-gap: 48px;
+                /* align-content: flex-start; */
+                justify-content: space-between;
+                align-items: flex-start;
+        }
+
+      
+
 
         footer {
                 width: 428px;
@@ -1350,6 +1391,9 @@ footer {
         .mobile-container {
                 display: none;
         }
+  
+        
+    
 }
 
 
