@@ -151,7 +151,7 @@ button {
 }
 
 .mobile-menu {
-        display: none;
+        /* display: none; */
          position: relative;
 }
 
@@ -1047,7 +1047,6 @@ footer {
         .backdrop {
                 width: 428px;
                 align-items: center;
-                /* height: 584px; */
         }
         
         .modal {
@@ -1121,6 +1120,7 @@ footer {
                 width: 100vh;
                 position: fixed;
                 background-color: var(--WHITE, white);
+                z-index: 999;
         }
 
         .mobile-nav-header {
@@ -1201,9 +1201,7 @@ footer {
                 background-color: transparent;
         }
 
-
         .js-open-menu {
-                /* display: flex; */
                 margin-right: 16px;
         }
  
@@ -1228,34 +1226,18 @@ footer {
         }
 
         .project {
-                /* width: 396px; */
+                margin: 0 auto;
+                margin-top: 48px;
                 margin-left: 16px;
                 margin-right: 16px;
-                /* display: inline-flex;
-                flex-direction: column;
-                align-items: flex-start; */
-
         } 
-/* 
-        .project-grid {
-                flex-direction: column;
-                display: flex;
-               
-        } */
 
         .project-list {
-                /* display: flex; */
                 flex-wrap: wrap;
-                /* flex-direction: column; */
                 row-gap: 48px;
-                /* align-content: flex-start; */
                 justify-content: space-between;
                 align-items: flex-start;
-                /* overflow: hidden; */
         }
-
-      
-
 
         footer {
                 width: 428px;
@@ -1286,7 +1268,16 @@ footer {
 }
 
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1558px) {
+        .container {
+                width: 768;
+                margin: 0 auto;
+        }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1558px),
+only screen and (max-width: 767px) {
+
         .container {
                 width: 768px;
         }
@@ -1300,9 +1291,6 @@ footer {
                 height: 72px;
         }
         
-        
-
-
         .feature,
         .team-card {
                 flex-basis: calc(100% / 2 - 30px);
@@ -1311,21 +1299,16 @@ footer {
         .header-contact {
                 display: flex;
         }
-}
 
-@media (min-width: 1158px) {
-        .container {
-                width: 1158px;
+        .mobile-container {
+                display: none;
         }
+
 
         .feature,
         .team-card {
                 flex-basis: calc(100% / 4 - 30px);
         }
-
-        /* .team-list {
-                flex-basis: calc(100% / 4 - 30px);
-        } */
 
         .customers-logo {
                 flex-basis: calc(100% / 6 - 30px);
@@ -1333,9 +1316,9 @@ footer {
                 align-items: center;
         }
 
-  }
 
-@media (max-width: 1157px) {
+
+/* @media (max-width: 1157px) { */
         .mobile-menu {
                 transform: translateX(100%);
                 transition: transform 250ms ease-in-out;
@@ -1386,14 +1369,18 @@ footer {
         .footer-social {
                 margin-left: 24px;
         }
-}
 
-@media (max-width: 767) {
-        .mobile-container {
+
+/* @media (max-width: 767) { */
+        /* .mobile-container {
                 display: none;
-        }
+        } */
   
         
-    
 }
 
+ @media (min-width: 1158px) { 
+        .container {
+                width: 1158px;
+        }
+  }
