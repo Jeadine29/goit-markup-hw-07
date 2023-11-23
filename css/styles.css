@@ -160,9 +160,13 @@ button {
         top: 23px;
 }
 
-.active
-
 .email:hover {
+        color: var(--IRIS, #4D5AE5);
+        background-color: transparent;
+}
+
+
+.email:active {
         color: var(--IRIS, #4D5AE5);
         background-color: transparent;
 }
