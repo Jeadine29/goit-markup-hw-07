@@ -708,12 +708,11 @@ p {
 .project-list {
         display: inline-flex;
         padding-bottom: 0px;
-        flex-direction: row;
         justify-content: center;
         align-items: flex-start;
-        flex-shrink: 0;
         gap: 24px;
         margin-bottom: 48px;
+        flex-wrap: wrap;
 }
 
 .image {
@@ -941,7 +940,7 @@ only screen and (max-width: 427px) {
        }
 
         .header-logo {
-                margin-right: 233px;
+                margin-right: 230px;
                 margin-left: 16px;
         }
        
@@ -1248,11 +1247,25 @@ only screen and (max-width: 427px) {
         }
 
         .buttons {
-               margin-left: 96px;
+               margin-left: 91px;
+               margin-right: 91px;
         }
         
+        
+
         .project {
                 margin-left: 16px;
+                        margin-right: 16px;
+        }
+
+        .project-grid {
+                margin-left: 0;
+                display: flex;
+        }
+
+        .project-list {
+                justify-content: flex-start;
+
         }
 
         .hero-section,
@@ -1293,11 +1306,11 @@ only screen and (max-width: 427px) {
         }
   
         .teams {
-                width: 786px;
+                width: 768px;
                 padding-left: 0;
+                padding-right: 0;
                 padding-top: 0;
-                padding-bottom: 96px;
-               
+                padding-bottom: 96px;   
         }
 
        .team {
@@ -1321,17 +1334,16 @@ only screen and (max-width: 427px) {
 
         .customers-logo {
                 width: 552px;
-
         }
   
         .logo-icons {
-                width: 166px;
-              
+                width: 166px;       
         }
-
+       
         footer {
-                width: 786px;
+                width: 768px;
                 display: flex;
+                padding: 96px;
         }
 
         .footer-inner {
@@ -1354,8 +1366,6 @@ only screen and (max-width: 427px) {
         
 }
 
-
-
 @media (max-width: 1157px) {
        
         .mobile-menu {
@@ -1364,6 +1374,10 @@ only screen and (max-width: 427px) {
                 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
         }
         
+        .desktop-nav {
+                width: 768px;
+
+        }
         .inner-header {
                 display: flex;
                 flex-direction: row;
@@ -1374,6 +1388,7 @@ only screen and (max-width: 427px) {
         .header-container {
                 margin: 0 auto;
                 margin-left: 16px;
+                margin-right: 16px;
         }
 
         .header-list {
@@ -1423,8 +1438,8 @@ only screen and (max-width: 427px) {
         .team,
         .customer {
                 font-size: 36px;
-        }
-
+        } 
+        
         .logo-icons {
                 flex-basis: calc(100% / 3 - 30px);
         }
