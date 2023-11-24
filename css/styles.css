@@ -1279,8 +1279,7 @@ only screen and (max-width: 427px) {
 
         .header-navigation {
                 display: flex;
-                margin-right: 181px;
-                align-items: center;
+               
         }
 
         /* .header-list {
@@ -1290,21 +1289,21 @@ only screen and (max-width: 427px) {
 
 
         .buttons {
-                margin-left: 91px;
-                margin-right: 91px;
+                display: flex;
+                justify-content: center;
         }
 
 
 
         .project {
                 margin-left: 16px;
-                margin-right: 16px;
+                /* margin-right: 16px; */
         }
 
         .project-grid {
-                margin-left: 0;
-                display: flex;
-        }
+                /* margin-left: 0; */
+                /* display: flex;
+        } */
 
         .project-list {
                 justify-content: flex-start;
@@ -1544,9 +1543,9 @@ only screen and (max-width: 427px) {
                 flex-basis: calc(100% / 3 - 30px);
         }
 
-        .buttons {
+        /* .buttons {
                 flex-basis: calc(100% / 3 - 30px);
-        }
+        } */
 
         .feature p {
                 margin-top: 0;
