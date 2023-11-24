@@ -919,7 +919,7 @@ footer {
 @media only screen and (min-width: 428px) and (max-width: 767px) {
         .container {
                 width: 428px;
-                margin: 0 auto;
+                /* margin: 0 auto; */
         }
 }
 
@@ -1180,25 +1180,25 @@ only screen and (max-width: 427px) {
         .project {
                 margin: 0 auto;
                 margin-top: 48px;
-                margin-left: 16px;
-                margin-right: 16px;
+                /* margin-left: 16px;
+                margin-right: 16px; */
         }
 
         .project-list {
-                flex-wrap: wrap;
+                /* flex-wrap: wrap; */
                 row-gap: 48px;
-                justify-content: space-between;
-                align-items: flex-start;
+                /* justify-content: space-between;
+                align-items: flex-start; */
         }
 
         footer {
-                width: 428px;
+                /* width: 428px; */
                 padding: 96px 0px;
         }
 
         .footer-inner {
                 align-items: center;
-                align-content: center;
+                /* align-content: center; */
                 flex-direction: column;
                 text-align: center;
         }
