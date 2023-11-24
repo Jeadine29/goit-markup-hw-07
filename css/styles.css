@@ -1221,10 +1221,11 @@ only screen and (max-width: 427px) {
 
 
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
-        .container {
+        /* .container {
                 width: 768px;
                 margin: 0 auto;
-        }
+                align-items: center;
+        } */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
@@ -1240,50 +1241,52 @@ only screen and (max-width: 427px) {
                 display: none;
         }
 
-        .contact-info {
+        /* .contact-info {
                 display: flex;
                 flex-direction: column;
                 margin-right: 16px;
                 height: 72px;
-        }
+        } */
 
-        .header-container {
+        /* .header-container {
                 margin-left: 26px;
-        }
+        } */
 
         .inner-header {
                 align-items: center;
         }
 
-        .header-navigation {
+        /* .header-navigation {
                 display: flex;
                 margin-right: 181px;
                 align-items: center;
-        }
+        } */
 
         .header-list {
-                margin-left: 121px;
-                margin-right: 1211px;
-        }
-
-        .header-container {
-                margin-left: 26px;
-        }
-
-        .inner-header {
-                align-items: center;
-        }
-
-        .header-navigation {
-                display: flex;
-                margin-right: 181px;
-                align-items: center;
-        }
-
-        .header-list {
-                margin-left: 121px;
+                /* margin-left: 121px; */
                 margin-right: 121px;
         }
+
+        .header-container {
+                /* margin-left: 26px; */
+                display: flex;
+                justify-content: space-around;
+        }
+
+        .inner-header {
+                align-items: center;
+        }
+
+        .header-navigation {
+                display: flex;
+                margin-right: 181px;
+                align-items: center;
+        }
+
+        /* .header-list {
+                margin-left: 121px;
+                margin-right: 121px;
+        } */
 
 
         .buttons {
@@ -1312,8 +1315,8 @@ only screen and (max-width: 427px) {
                 height: 72px;
                 display: flex;
                 flex-direction: column;
-                margin-right: 16px;
-                margin-left: 16px;
+                /* margin-right: 16px;
+                margin-left: 16px; */
                 justify-content: space-evenly;
         }
 
@@ -1332,14 +1335,14 @@ only screen and (max-width: 427px) {
                 letter-spacing: 0.48px;
         }
 
-        .hero {
+        /* .hero {
                 display: inline-block;
                 margin-left: 136px;
-        }
+        } */
 
-        .hero-btn {
+        /* .hero-btn {
                 margin-right: 300px;
-        }
+        } */
 
         .header-contacts {
                 display: flex;
@@ -1358,27 +1361,30 @@ only screen and (max-width: 427px) {
 
         .hero {
                 display: inlin-block;
-                margin-left: 136px;
+                /* margin-left: 136px; */
         }
-
-        .hero-btn {
+        
+        .backdrop {
+                height: 1018px;
+        }
+        /* .hero-btn {
                 margin-right: 300px
-        }
+        } */
 
-        .content {
+        /* .content {
                 width: 768px;
-        }
+        } */
 
         .content-list {
 
                 margin-left: 16px;
                 margin-right: 16px;
                 margin-bottom: 96px;
-                display: flex;
+                /* display: flex; */
                 flex-wrap: wrap;
                 margin-top: 96px;
-                justify-content: space-evenly;
-                align-items: stretch;
+                /* justify-content: space-evenly;
+                align-items: stretch; */
         }
 
         .feature {
@@ -1390,7 +1396,7 @@ only screen and (max-width: 427px) {
         }
 
         .teams {
-                width: 768px;
+                /* width: 768px; */
                 padding-left: 0;
                 padding-right: 0;
                 padding-top: 0;
@@ -1403,21 +1409,27 @@ only screen and (max-width: 427px) {
                 margin: 0 auto;
         }
 
+        .team-list {
+                gap: 24px;
+        }
+
         .customers {
-                width: 678px;
+                /* width: 678px; */
                 padding-top: 0px;
                 padding-bottom: 96px;
                 padding-left: 102px;
         }
 
         .customer {
+                font-size: 36px;
                 margin-top: 96px;
-                align-items: center;
-                margin-right: 230px;
+                /* align-items: center;
+                margin-right: 230px; */
         }
 
         .customers-logo {
-                width: 552px;
+                /* width: 552px; */
+                height: 360px;
         }
 
         .logo-icons {
@@ -1425,13 +1437,16 @@ only screen and (max-width: 427px) {
         }
 
         footer {
-                width: 768px;
-                display: flex;
-                padding: 96px;
+                /* width: 768px; */
+                /* display: flex; */
+                /* padding-left: 0px; */
+                padding-right: 96px;
         }
 
         .footer-inner {
                 padding: 0;
+                justify-content: flex-start;
+                /* margin-left: 30px; */
         }
 }
 
@@ -1487,10 +1502,10 @@ only screen and (max-width: 427px) {
                 margin-left: 0;
         }
 
-        .backdrop {
+        /* .backdrop {
                 width: 768px;
                 align-items: center;
-        }
+        } */
 
         /* .hero-section {
                 display: block;
@@ -1504,9 +1519,9 @@ only screen and (max-width: 427px) {
                 margin-bottom: 36px;
         } */
 
-        .footer-inner {
+        /* .footer-inner {
                 justify-content: flex-start;
-        }
+        } */
 
         .works {
                 display: none;
@@ -1521,8 +1536,7 @@ only screen and (max-width: 427px) {
                 margin-bottom: 8px;
         }
 
-        .team,
-        .customer {
+        .team {
                 font-size: 36px;
         }
 
