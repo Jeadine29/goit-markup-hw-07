@@ -1219,6 +1219,7 @@ only screen and (max-width: 427px) {
         }
 }
 
+
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
         .container {
                 width: 768px;
@@ -1243,17 +1244,55 @@ only screen and (max-width: 427px) {
                 display: flex;
                 flex-direction: column;
                 margin-right: 16px;
-        }
-
-        .contact-info {
-                display: flex;
                 height: 72px;
         }
+
+        .header-container {
+                margin-left: 26px;
+        }
+
+        .inner-header {
+                align-items: center;
+        }
+
+        .header-navigation {
+                display: flex;
+                margin-right: 181px;
+                align-items: center;
+        }
+
+        .header-list {
+                margin-left: 121px;
+                margin-right: 1211px;
+        }
+
+        .header-container {
+                margin-left: 26px;
+        }
+
+        .inner-header {
+                align-items: center;
+        }
+
+        .header-navigation {
+                display: flex;
+                margin-right: 181px;
+                align-items: center;
+        }
+
+        .header-list {
+                margin-left: 121px;
+                margin-right: 121px;
+        }
+
 
         .buttons {
                 margin-left: 91px;
                 margin-right: 91px;
         }
+
+
+
         .project {
                 margin-left: 16px;
                 margin-right: 16px;
@@ -1269,17 +1308,61 @@ only screen and (max-width: 427px) {
 
         }
 
-        .hero-section,
-        .main-hero {
-                width: 768px;
+        .contact-info {
+                height: 72px;
                 display: flex;
-                flex-wrap: wrap;
-                align-content: flex-start;
-                justify-content: flex-end;
+                flex-direction: column;
+                margin-right: 16px;
+                margin-left: 16px;
+                justify-content: space-evenly;
+        }
+
+        .header-contacts {
+                display: flex;
+                flex-direction: column;
+                font-size: 12px;
+                gap: 12px;
+                margin-top: 16px;
+                margin-bottom: 16px;
+        }
+
+        .contacts {
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 0.48px;
+        }
+
+        .hero {
+                display: inline-block;
+                margin-left: 136px;
         }
 
         .hero-btn {
                 margin-right: 300px;
+        }
+
+        .header-contacts {
+                display: flex;
+                flex-direction: column;
+                font-size: 12px;
+                gap: 12px;
+                margin-top: 16px;
+                margin-bottom: 16px;
+        }
+
+        .contacts {
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 0.48px;
+        }
+
+        .hero {
+                display: inlin-block;
+                margin-left: 136px;
+        }
+
+        .hero-btn {
+                margin-right: 300px
         }
 
         .content {
@@ -1287,6 +1370,7 @@ only screen and (max-width: 427px) {
         }
 
         .content-list {
+
                 margin-left: 16px;
                 margin-right: 16px;
                 margin-bottom: 96px;
@@ -1374,36 +1458,30 @@ only screen and (max-width: 427px) {
                 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        .desktop-nav {
-                width: 768px;
-
-        }
-
-        .inner-header {
+        /* .desktop-nav {
                 display: flex;
-                flex-direction: row;
-                justify-content: flex-start;
-                align-items: flex-start;
-        }
+                justify-content: space-between;
 
-        .header-container {
-                margin: 0 auto;
+        } */
+        /* .inner-header {
                 margin-left: 16px;
-                margin-right: 16px;
-        }
+                align-items: flex-end;
+        } */
 
-        .header-list {
+
+
+        /* .header-list {
                 margin-right: 121px;
-        }
+        } */
 
-        .header-contacts {
+        /* .header-contacts {
                 display: flex;
                 flex-direction: column;
                 font-size: 12px;
                 height: 72px;
                 margin-top: 16px;
-                margin-bottom: 16px;
-        }
+                margin-bottom: 16px; 
+        } */
 
         .number {
                 margin-left: 0;
@@ -1414,10 +1492,17 @@ only screen and (max-width: 427px) {
                 align-items: center;
         }
 
-        .hero {
+        /* .hero-section {
+                display: block;
+                max-width: 768px;
+                height: 436px;
+        } */
+        /* .hero {
+                margin-top: 120px;
                 margin-left: 136px;
                 margin-right: 136px;
-        }
+                margin-bottom: 36px;
+        } */
 
         .footer-inner {
                 justify-content: flex-start;
