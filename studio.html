@@ -12,33 +12,26 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-        crossorigin="anonymous" /> -->
 </head>
 
 <body>
     <!-- Header -->
-    <header class="header desktop-nav">
-        <div class="container header-container">
-            <div class="inner-header">
-                <nav class="header-navigation">
-                    <h4><a class="header-logo" href="webstudio"><span class="logo">WEB</span><span
-                                class="studio-navy">STUDIO</span></a></h4>
-                    <ul class="header-list">
-                        <li class="header-studio"><a class="header-link link active" href="studio.html">Studio</a></li>
-                        <li class="header-item"><a class="header-link link" href="portfolio.html">Portfolio</a></li>
-                        <li class="header-item"><a class="header-link link" href="contacts.html">Contacts</a></li>
-                    </ul>
-                </nav>
-                <!-- Contacts- Info -->
-                <div class="contact-info">
-                    <ul class="header-contacts">
-                        <li class="contacts"><a class="email" href="email">info@devstudio.com</a></li>
-                        <li class="contacts"><a class="number" href="number">+11 (000) 111-11-11</a></li>
-                    </ul>
-                </div>
-            </div>
+    <header class="header">
+        <nav class="header-navigation">
+            <h4><a class="header-logo" href="webstudio"><span class="logo">WEB</span><span
+                        class="studio-navy">STUDIO</span></a></h4>
+            <ul class="header-list">
+                <li class="header-studio"><a class="header-link link active" href="studio.html">Studio</a></li>
+                <li class="header-item"><a class="header-link link" href="portfolio.html">Portfolio</a></li>
+                <li class="header-item"><a class="header-link link" href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+        <!-- Contacts- Info -->
+        <div class="contact-info">
+            <ul class="header-contacts">
+                <li class="contacts"><a class="email" href="email">info@devstudio.com</a></li>
+                <li class="contacts"><a class="number" href="number">+11 (000) 111-11-11</a></li>
+            </ul>
         </div>
     </header>
 
@@ -162,10 +155,13 @@
             </div>
         </section>
         <section class="content">
-            <div class="container">
+            <!-- <div class="container"> -->
+            <div class="main-content">             
+                <!-- hero-content  -->
                 <ul class="content-list">
                     <li class="feature">
-                        <div class="hero-icon">
+                        <div class="content-icon">
+                            <!-- hero-icon -->
                             <svg class="icons">
                                 <use href="./images/icons.svg#antenna-1"></use>
                             </svg>
@@ -175,7 +171,7 @@
                             solution.</p>
                     </li>
                     <li class="feature">
-                        <div class="hero-icon">
+                        <div class="content-icon">
                             <svg class="icons">
                                 <use href="./images/icons.svg#clock-1"></use>
                             </svg>
@@ -185,7 +181,7 @@
                             time.</p>
                     </li>
                     <li class="feature">
-                        <div class="hero-icon">
+                        <div class="content-icon">
                             <svg class="icons">
                                 <use href="./images/icons.svg#diagram-1"></use>
                             </svg>
@@ -195,7 +191,7 @@
                             minimizerisk.</p>
                     </li>
                     <li class="feature">
-                        <div class="hero-icon">
+                        <div class="content-icon">
                             <svg class="icons">
                                 <use href="./images/icons.svg#astronaut-1"></use>
                             </svg>
@@ -220,7 +216,7 @@
             </div>
         </section>
         <section class="teams">
-            <div class="container">
+            <!-- <div class="container"> -->
                 <h2 class="team">Our Team</h2>
                 <div class="team-grid">
                     <ul class="team-list">
@@ -338,48 +334,46 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            <!-- </div> -->
         </section>
         <section class="customers">
-            <div class="container">
-                <h2 class="customer">Customers</h2>
-                <div class="customers-logo">
-                    <a class="logo-icons">
-                        <svg class="customers-icon">
-                            <use href="./images/icons.svg#Logo-6"></use>
-                        </svg>
-                    </a>
-                    <a class="logo-icons">
-                        <svg class="customers-icon">
-                            <use href="./images/icons.svg#Logo-4"></use>
-                        </svg>
-                    </a>
-                    <a class="logo-icons">
-                        <svg class="customers-icon">
-                            <use href="./images/icons.svg#Logo-5"></use>
-                        </svg>
-                    </a>
-                    <a class="logo-icons">
-                        <svg class="customers-icon">
-                            <use href="./images/icons.svg#Logo-2"></use>
-                        </svg>
-                    </a>
-                    <a class="logo-icons">
-                        <svg class="customers-icon">
-                            <use href="./images/icons.svg#Logo"></use>
-                        </svg>
-                    </a>
-                    <a class="logo-icons">
-                        <svg class="customers-icon">
-                            <use href="./images/icons.svg#Logo-1"></use>
-                        </svg>
-                    </a>
-                </div>
+            <h2 class="customer">Customers</h2>
+            <div class="customers-logo">
+                <a class="logo-icons">
+                    <svg class="customers-icon">
+                        <use href="./images/icons.svg#Logo-6"></use>
+                    </svg>
+                </a>
+                <a class="logo-icons">
+                    <svg class="customers-icon">
+                        <use href="./images/icons.svg#Logo-4"></use>
+                    </svg>
+                </a>
+                <a class="logo-icons">
+                    <svg class="customers-icon">
+                        <use href="./images/icons.svg#Logo-5"></use>
+                    </svg>
+                </a>
+                <a class="logo-icons">
+                    <svg class="customers-icon">
+                        <use href="./images/icons.svg#Logo-2"></use>
+                    </svg>
+                </a>
+                <a class="logo-icons">
+                    <svg class="customers-icon">
+                        <use href="./images/icons.svg#Logo"></use>
+                    </svg>
+                </a>
+                <a class="logo-icons">
+                    <svg class="customers-icon">
+                        <use href="./images/icons.svg#Logo-1"></use>
+                    </svg>
+                </a>
             </div>
         </section>
     </main>
     <footer>
-        <div class="footer-container">
+        <div class="container">
             <div class="footer-inner">
                 <div class="footer-content">
                     <h4><a class="footer-logo" href="webstudio"><span class="logo">WEB</span><span
