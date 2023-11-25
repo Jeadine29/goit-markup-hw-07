@@ -1339,7 +1339,7 @@ only screen and (max-width: 427px) {
         }
 
         .hero {
-                display: inlin-block;
+                display: inline-block;
                 /* margin-left: 136px; */
         }
         
